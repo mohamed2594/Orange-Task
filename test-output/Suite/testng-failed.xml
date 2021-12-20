@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test thread-count="5" name="TedSearchTest(failed)">
+    <classes>
+      <class name="tests.HomeTest">
+        <methods>
+          <include name="OpenAppsLink"/>
+          <include name="closeDriver"/>
+          <include name="openDriver"/>
+        </methods>
+      </class> <!-- tests.HomeTest -->
+      <class name="tests.AppsTest">
+        <methods>
+          <include name="ChooseEducationFromCategories"/>
+          <include name="closeDriver"/>
+          <include name="openDriver"/>
+        </methods>
+      </class> <!-- tests.AppsTest -->
+    </classes>
+  </test> <!-- TedSearchTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

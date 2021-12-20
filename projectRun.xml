@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="twoBrowsers">
+<suite-files>
+
+<suite-file path="firefoxRun.xml" />
+<suite-file path="chromeRun.xml" />
+
+</suite-files>
+</suite>
