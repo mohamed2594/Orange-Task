@@ -1,16 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [ChromeSuite]" guice-stage="DEVELOPMENT">
-  <parameter name="browser" value="chrome"/>
+<suite name="Failed suite [FirefoxSuite]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="firefox"/>
   <test thread-count="5" name="TedSearchTest(failed)">
     <classes>
-      <class name="tests.SelectTedAppTest">
-        <methods>
-          <include name="selectTedApp"/>
-          <include name="closeDriver"/>
-          <include name="openDriver"/>
-        </methods>
-      </class> <!-- tests.SelectTedAppTest -->
       <class name="tests.AppsTest">
         <methods>
           <include name="ChooseEducationFromCategories"/>
@@ -18,6 +11,27 @@
           <include name="openDriver"/>
         </methods>
       </class> <!-- tests.AppsTest -->
+      <class name="tests.TedSearchTest">
+        <methods>
+          <include name="searchForTedApp"/>
+          <include name="closeDriver"/>
+          <include name="openDriver"/>
+        </methods>
+      </class> <!-- tests.TedSearchTest -->
+      <class name="tests.SelectTedAppTest">
+        <methods>
+          <include name="selectTedApp"/>
+          <include name="closeDriver"/>
+          <include name="openDriver"/>
+        </methods>
+      </class> <!-- tests.SelectTedAppTest -->
+      <class name="tests.HomeTest">
+        <methods>
+          <include name="OpenAppsLink"/>
+          <include name="closeDriver"/>
+          <include name="openDriver"/>
+        </methods>
+      </class> <!-- tests.HomeTest -->
     </classes>
   </test> <!-- TedSearchTest(failed) -->
   <test thread-count="5" name="FacebookSearchTest(failed)">
@@ -38,4 +52,4 @@
       </class> <!-- tests.SelectFacebookAppTest -->
     </classes>
   </test> <!-- FacebookSearchTest(failed) -->
-</suite> <!-- Failed suite [ChromeSuite] -->
+</suite> <!-- Failed suite [FirefoxSuite] -->

@@ -1,8 +1,6 @@
 package pages;
 
 import java.time.Duration;
-import java.util.concurrent.TimeUnit;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -12,7 +10,6 @@ public class AppsPage {
 	
 	private WebDriver driver ;
 	private WebDriverWait wait ;
-//	private By MyAppsLink = By.xpath("//a[@href='/apps']");
 	private By CategoriesDropdown = By.xpath("//button[@class='qAAUy']");
 	private By EducationLink = By.xpath("//a[@href='/store/apps/category/EDUCATION']");
 	

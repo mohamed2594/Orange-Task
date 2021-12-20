@@ -11,7 +11,6 @@ public class EducationPage {
 	
 	private WebDriver driver ;
 	private WebDriverWait wait;
-//	private By EducationButton = By.id("action-dropdown-parent-Education");
 	private By SearchTextbox = By.id("gbqfq");
 	private By SearchButton = By.id("gbqfb");
 	
